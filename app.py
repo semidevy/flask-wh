@@ -22,7 +22,7 @@ def results():
         name = name.get('vorname')
         time.sleep(1)
         if (name == "Georg"):
-            return {'fulfillmentText': 'Georg ist ein scheiß Name'}
+            return {'fulfillmentText': 'Georg ist ein scheiss Name'}
         return {'fulfillmentText': 'Hallo '+name+', wie kann ich dir helfen?'}
     elif (id == "get_name - no - custom"):
         return {'fulfillmentText': 'Kannst du mir deine Symptome etwas genauer schildern?'}
